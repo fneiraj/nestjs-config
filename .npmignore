@@ -1,0 +1,8 @@
+/dist/tests/**/*
+/dist/lib/__config/*
+/tests/**/*
+/coverage/**/*
+
+/lib
+jest.config.ts
+tsconfig.json
