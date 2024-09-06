@@ -97,8 +97,8 @@ export class AppService {
     private readonly apiConfig: ApiConfig,
     private readonly dbConfig: DbConfig
   ) {
-    this.logger.log(this.appConfigService.config);
-    this.logger.log(this.dbConfigService.config);
+    this.logger.log(this.apiConfig);
+    this.logger.log(this.dbConfig);
   }
 
   getApiHost(): number {
